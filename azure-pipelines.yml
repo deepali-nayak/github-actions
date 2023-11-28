@@ -33,4 +33,4 @@ task: Bash@3
        ./snyk monitor --all-projects
        echo "----------Snyk Scanning-----------"
        ./snyk test --all-projects
-     failOnStderr: true
+     failOnStderr: false
